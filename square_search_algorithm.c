@@ -212,19 +212,19 @@ int square_search_debug(int haystack[], int size_haystack, int needle){
             found_at_cell = cell;
         }
 
-        if (haystack[ho-1] == needle && ho <= size_haystack){
+        if (ho <= size_haystack && haystack[ho-1] == needle){
             needle_status = FOUND;
             found_at_iteration = iteration;
             found_at_cell = ho;
         }
 
-        if (haystack[vo-1] == needle && vo <= size_haystack){
+        if (vo <= size_haystack && haystack[vo-1] == needle){
             needle_status = FOUND;
             found_at_iteration = iteration;
             found_at_cell = vo;
         }
 
-        if (haystack[dso-1] == needle && dso <= size_haystack){
+        if (dso <= size_haystack && haystack[dso-1] == needle){
             needle_status = FOUND;
             found_at_iteration = iteration;
             found_at_cell = dso;
