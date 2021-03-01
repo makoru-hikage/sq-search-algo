@@ -46,14 +46,14 @@ int column_index(int n, int b){
 }
 
 /**
- * @brief Find the opposite number of an integer in a given base (eg. the opposite of 3 is 2 in the base of 5)
+ * @brief Find the opposite number of an integer in a given length (eg. the opposite of 3 is 2 in the length of 5)
  * 
  * @param n 
- * @param b 
+ * @param length
  * @return int 
  */
-int diametric_opposite(int n, int b){
-    return (b + 1) - n;
+int diametric_opposite(int n, int length){
+    return (length + 1) - n;
 }
 
 /**
