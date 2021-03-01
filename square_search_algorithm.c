@@ -13,7 +13,7 @@
  * @brief Find the nearest square root (e.g. 23 yields 5 since sqrt(25) is 5)
  * 
  * @param n 
- * @return b with stands for a base of an exponent
+ * @return b which stands for the base of an exponent
  */
 int find_nearest_sqrt (int n){
     int b = 1;
